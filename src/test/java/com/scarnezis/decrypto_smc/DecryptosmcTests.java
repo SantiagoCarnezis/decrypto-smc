@@ -1,10 +1,10 @@
-package com.scarnezis.desafio_crypto_la;
+package com.scarnezis.decrypto_smc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DesafioCryptoLaApplicationTests {
+class DecryptosmcTests {
 
 	@Test
 	void contextLoads() {

@@ -1,8 +1,8 @@
-package com.scarnezis.desafio_crypto_la.controller;
+package com.scarnezis.decrypto_smc.controller;
 
-import com.scarnezis.desafio_crypto_la.dto.CreateClientDto;
-import com.scarnezis.desafio_crypto_la.dto.CreateMarketDto;
-import com.scarnezis.desafio_crypto_la.service.StatsService;
+import com.scarnezis.decrypto_smc.dto.CreateClientDto;
+import com.scarnezis.decrypto_smc.dto.CreateMarketDto;
+import com.scarnezis.decrypto_smc.service.StatsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

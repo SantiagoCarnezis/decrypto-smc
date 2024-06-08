@@ -1,8 +1,8 @@
-package com.scarnezis.desafio_crypto_la.repository;
+package com.scarnezis.decrypto_smc.repository;
 
-import com.scarnezis.desafio_crypto_la.dto.MarketClientsDto;
-import com.scarnezis.desafio_crypto_la.entity.Client;
-import com.scarnezis.desafio_crypto_la.entity.Country;
+import com.scarnezis.decrypto_smc.dto.MarketClientsDto;
+import com.scarnezis.decrypto_smc.entity.Client;
+import com.scarnezis.decrypto_smc.entity.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -14,7 +14,7 @@ public interface ClientRepository extends JpaRepository<Client, String> {
 
     @Query(value =
             "SELECT "+
-                    " new com.scarnezis.desafio_crypto_la.dto.MarketClientsDto(m.code, COUNT (c)) " +
+                    " new com.scarnezis.decrypto_smc.dto.MarketClientsDto(m.code, COUNT (c)) " +
                     "FROM Client c " +
                     "JOIN c.markets m " +
                     "WHERE m.country = ?1 " +

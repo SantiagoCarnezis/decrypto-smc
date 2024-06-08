@@ -1,4 +1,4 @@
-package com.scarnezis.desafio_crypto_la.entity;
+package com.scarnezis.decrypto_smc.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;

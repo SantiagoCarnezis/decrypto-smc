@@ -1,4 +1,4 @@
-package com.scarnezis.desafio_crypto_la.dto;
+package com.scarnezis.decrypto_smc.dto;
 
 import lombok.Getter;
 import lombok.Setter;

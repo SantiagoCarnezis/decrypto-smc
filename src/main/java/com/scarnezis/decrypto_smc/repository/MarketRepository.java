@@ -1,6 +1,6 @@
-package com.scarnezis.desafio_crypto_la.repository;
+package com.scarnezis.decrypto_smc.repository;
 
-import com.scarnezis.desafio_crypto_la.entity.Market;
+import com.scarnezis.decrypto_smc.entity.Market;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.scarnezis</groupId>
-	<artifactId>desafio-crypto-la</artifactId>
+	<artifactId>decrypto-smc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>desafio-crypto-la</name>
+	<name>decrypto-smc</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>

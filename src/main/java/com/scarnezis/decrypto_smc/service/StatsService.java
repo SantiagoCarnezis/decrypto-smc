@@ -1,12 +1,12 @@
-package com.scarnezis.desafio_crypto_la.service;
+package com.scarnezis.decrypto_smc.service;
 
-import com.scarnezis.desafio_crypto_la.dto.*;
-import com.scarnezis.desafio_crypto_la.entity.Client;
-import com.scarnezis.desafio_crypto_la.entity.Country;
-import com.scarnezis.desafio_crypto_la.entity.Market;
-import com.scarnezis.desafio_crypto_la.repository.ClientRepository;
-import com.scarnezis.desafio_crypto_la.repository.CountryRepository;
-import com.scarnezis.desafio_crypto_la.repository.MarketRepository;
+import com.scarnezis.decrypto_smc.dto.*;
+import com.scarnezis.decrypto_smc.entity.Client;
+import com.scarnezis.decrypto_smc.entity.Country;
+import com.scarnezis.decrypto_smc.entity.Market;
+import com.scarnezis.decrypto_smc.repository.ClientRepository;
+import com.scarnezis.decrypto_smc.repository.CountryRepository;
+import com.scarnezis.decrypto_smc.repository.MarketRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
