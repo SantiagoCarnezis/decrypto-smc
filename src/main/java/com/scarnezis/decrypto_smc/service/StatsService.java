@@ -63,7 +63,6 @@ public class StatsService {
     public Market createMarket(CreateMarketDto marketDto){
 
         Market market = new Market();
-        market.setId(marketDto.getId());
         market.setCode(marketDto.getCode());
         market.setDescription(marketDto.getDescription());
 
@@ -73,10 +72,14 @@ public class StatsService {
         return marketRepository.save(market);
     }
 
+    public List<Market> getMarket(){
+
+        return marketRepository.findAll();
+    }
+
     public Client createClient(CreateClientDto clientDto){
 
         Client client = new Client();
-        client.setId(clientDto.getId());
         client.setDescription(clientDto.getDescription());
         List<Market> markets = marketRepository.findAllById(clientDto.getMarketIds());
         client.setMarkets(markets);

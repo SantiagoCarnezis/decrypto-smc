@@ -29,6 +29,12 @@ public class StatsController {
         return ResponseEntity.ok(service.createMarket(marketDto));
     }
 
+    @GetMapping("/market")
+    public ResponseEntity getMarket() {
+
+        return ResponseEntity.ok(service.getMarket());
+    }
+
     @PostMapping("/client")
     public ResponseEntity createClient(@RequestBody CreateClientDto clientDto) {
 
